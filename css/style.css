@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family:'Trebuchet MS';
+}
+
+header {
+    background-color: black;
+    background-position: right top;
+    
+}
+footer {
+    background-color: black;
+    min-height: 150px;
+    font-style: normal;
+    background-position-y: bottom;
+}
+
+h1.titulo {
+    font-style: normal;
+    font-size: 60px;
+    font-family: 'Shojumaru', cursive;
+    color: rgb(250, 211, 152);
+}
+
+li {
+    color: rgb(250, 211, 152); 
+}
+
+h2{
+    padding: 0.5em;
+    border-radius: 0.5em;
+    max-width: 700px;
+    backdrop-filter: blur(2px);
+}
+
+
+section.main {
+    background-image: url(../midia/Imagens/Bugado.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 1100px;
+    background-color: rgba(69, 141, 149, 0.47);
+}
+
+.rodape {
+    color: aliceblue;
+}
+
+.description {
+    
+    padding: 0.5em;
+    border-radius: 0.5em;
+    max-width: 700px;
+    backdrop-filter: blur(2px);
+}
+
+video{
+    width: 35%;
+}
