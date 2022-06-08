@@ -7,56 +7,87 @@
 
 header {
     background-color: black;
-    background-position: right top;
-    
-}
-footer {
-    background-color: black;
-    min-height: 150px;
-    font-style: normal;
-    background-position-y: bottom;
+    background-position: right top;  
 }
 
 h1.titulo {
-    font-style: normal;
+    font-style:normal;
     font-size: 60px;
     font-family: 'Shojumaru', cursive;
     color: rgb(250, 211, 152);
+    padding: 30px;
 }
 
-li {
-    color: rgb(250, 211, 152); 
+ul.container {
+    font-size: 20px; 
+    color: rgb(250, 211, 152);  
+    list-style: none;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: flex-start;
+    column-gap: 70px;
 }
-
-h2{
-    padding: 0.5em;
-    border-radius: 0.5em;
-    max-width: 700px;
-    backdrop-filter: blur(2px);
-}
-
 
 section.main {
     background-image: url(../midia/Imagens/Bugado.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 1100px;
+    height: 1200px;
     background-color: rgba(69, 141, 149, 0.47);
 }
 
-.rodape {
-    color: aliceblue;
-}
-
-.description {
-    
-    padding: 0.5em;
+h2{
+    padding: 20px;
     border-radius: 0.5em;
     max-width: 700px;
     backdrop-filter: blur(2px);
+    font-style: normal;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.192);
+}
+
+.description {
+    padding: 20px;
+    border-radius: 0.5em;
+    max-width: 700px;
+    backdrop-filter: blur(2px);
+    background-color: rgba(255, 255, 255, 0.192);
+    text-align: justify;
 }
 
 video{
-    width: 35%;
+    width: 37%;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+audio {
+    padding-left: 20px;
+}
+
+footer {
+    background-color: black;
+    min-height: 100px;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape {
+    color: rgb(250, 211, 152);
+    font-size: 20px; 
+    padding: 30px;
+    font-family: 'Shojumaru', cursive;
 }
